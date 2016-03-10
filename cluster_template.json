@@ -1,0 +1,19 @@
+{
+    "plugin_name": "{PLUGIN_NAME}",
+    "hadoop_version": "{HADOOP_VERSION}",
+    "node_groups": [
+        {
+            "name": "worker",
+            "count": 3,
+            "node_group_template_id": "{WORKER_NODE_ID}"
+        },
+        {
+            "name": "master",
+            "count": 1,
+            "node_group_template_id": "{MASTER_NODE_ID}"
+        }
+    ],
+    "name": "{PLUGIN_NAME}-cluster",
+    "neutron_management_network": "{NETWORK_ID}",
+    "cluster_configs": {}
+}
