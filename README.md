@@ -36,6 +36,6 @@ It's licensed under the Apache License 2.0. The quick summary is:
 
 > A license that allows you much freedom with the software, including an explicit right to a patent. “State changes” means that you have to include a notice in each file you modified. 
 
-Pull requests and Github issues are welcom!
+[Pull requests](https://github.com/JamesOBenson/sahara_cluster/pulls) and [Github issues](https://github.com/JamesOBenson/sahara_cluster/issues) are welcome!
 
 -- James
