@@ -1,11 +1,10 @@
 # Sahara HortonWorks Cluster Deploy
----
 This script is designed to work with an Openstack cluster that has Sahara deployed on it. 
 
 **Requirements:**
-Openstack
-Sahara
-Access to controller node
+* Openstack
+* Sahara
+* Access to controller node
 
 ##How to setup cluster
 1. Open *create_hadoop_cluster.sh* 
@@ -13,8 +12,11 @@ Access to controller node
   *  FLOATING_IP_POOL - Should be your external network
   *  NETWORK_NAME - Should be your internal network
   *  IMAGE_NAME - Your base image for Hortonworks, this can be aquired from the sahara image repository: 
+  
      http://sahara-files.mirantis.com/images/upstream/liberty/
+     
      or built from the diskimage-builder:
+     
      https://github.com/openstack/diskimage-builder
 3. Once complete, source your openrc
 4. Run sh create_hadoop_cluster.sh
